@@ -36,7 +36,7 @@ Configure simulation parameters in the provided `.config` files before execution
 
 ## Project Structure
 ```
-├── src/             # Core algorithms and source code
+├── src/             # python codes containing diffrent versions of our model
 ├── data/            # Input datasets and configuration files
 ├── docs/            # Documentation and technical details
 ├── tests/           # Unit tests for verification
