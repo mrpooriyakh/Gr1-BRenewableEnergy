@@ -64,9 +64,7 @@ Contributions are welcome! To contribute:
 For detailed guidelines, refer to `CONTRIBUTING.md`.
 
 ## References
-1. [Renewable Energy Management System: Optimum Design and Hourly Dispatch](https://example.com)
-2. [Optimization-Based Home Energy Management](https://example.com)
-3. [Hybrid Renewable Energy System Modeling](https://example.com)
+yet to be completed
 
 ## License
 This project is licensed under the MIT License - see `LICENSE.md` for details.
