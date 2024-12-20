@@ -1,4 +1,4 @@
 numpy
 scipy.integrate
 scipy.optimize
-matplotlib.pyplot as plt
+matplotlib.pyplot

@@ -30,13 +30,13 @@ This project develops a comprehensive framework for optimizing energy use in res
 ## Usage
 To run the optimization framework, use the following command:
 ```bash
-python run_optimization.py
+python run_Fina-model(not-created-yet).py
 ```
 Configure simulation parameters in the provided `.config` files before execution.
 
 ## Project Structure
 ```
-├── src/             # Core algorithms and source code
+├── src/             # python codes containing diffrent versions of our model
 ├── data/            # Input datasets and configuration files
 ├── docs/            # Documentation and technical details
 ├── tests/           # Unit tests for verification
@@ -45,8 +45,8 @@ Configure simulation parameters in the provided `.config` files before execution
 
 ## Technologies Used
 - **Programming Languages**: Python (with Pyomo, NumPy, Pandas)
-- **Modeling Tools**: OpenDSS for electrical simulations
-- **Optimization Frameworks**: Mixed-integer linear programming (MILP)
+- **Modeling Tools**: Design Builder to model an average house energy demands
+- **Optimization Frameworks**: Non-linear programming (NLP)
 
 ## Case Studies
 The framework has been validated with case studies, including:
@@ -64,16 +64,14 @@ Contributions are welcome! To contribute:
 For detailed guidelines, refer to `CONTRIBUTING.md`.
 
 ## References
-1. [Renewable Energy Management System: Optimum Design and Hourly Dispatch](https://example.com)
-2. [Optimization-Based Home Energy Management](https://example.com)
-3. [Hybrid Renewable Energy System Modeling](https://example.com)
+yet to be completed
 
 ## License
 This project is licensed under the MIT License - see `LICENSE.md` for details.
 
 ## Acknowledgments
 Special thanks to the contributors and researchers who supported this project. Additional support provided by:
-- Academic institutions and research grants.
+- Academic institutions(AUT,SUT,KN-Toosi).
 - Collaborators on renewable energy and storage technologies.
 
 ---
