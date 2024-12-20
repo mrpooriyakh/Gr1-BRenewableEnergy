@@ -45,8 +45,8 @@ Configure simulation parameters in the provided `.config` files before execution
 
 ## Technologies Used
 - **Programming Languages**: Python (with Pyomo, NumPy, Pandas)
-- **Modeling Tools**: OpenDSS for electrical simulations
-- **Optimization Frameworks**: Mixed-integer linear programming (MILP)
+- **Modeling Tools**: Design Builder to model an average house energy demands
+- **Optimization Frameworks**: Non-linear programming (NLP)
 
 ## Case Studies
 The framework has been validated with case studies, including:
@@ -73,7 +73,7 @@ This project is licensed under the MIT License - see `LICENSE.md` for details.
 
 ## Acknowledgments
 Special thanks to the contributors and researchers who supported this project. Additional support provided by:
-- Academic institutions and research grants.
+- Academic institutions(AUT,SUT,KN-Toosi).
 - Collaborators on renewable energy and storage technologies.
 
 ---
