@@ -1,0 +1,10 @@
+Technology Name,Type,Capacity (kW),Efficiency (%),CapEx ($/kW),OpEx ($/kWh),Fuel Cost ($/kWh),Rated Wind Speed (m/s),Cut-in Wind Speed (m/s),Cut-out Wind Speed (m/s),Max Installation Area (m2),Emission Factor (kg CO2/kWh)
+Solar PV,Electricity,5,18,1000,0.02,0,0,0,0,50,0
+Wind Turbine,Electricity,10,35,1500,0.015,0,12,3,25,0,0
+Solar Thermal,Thermal,7,50,1200,0.01,0,0,0,0,30,0
+Geothermal System,Thermal,8,70,3000,0.005,0,0,0,0,0,0
+Waste Bioenergy,Thermal,6,60,2000,0.03,0.04,0,0,0,0,0.1
+Heat Pump,Thermal,5,300,2500,0.01,0,0,0,0,0,0
+Li-ion Battery,Storage,10,95,400,0.005,0,0,0,0,0,0
+Electricity Grid,Electricity,100,100,0,0.1,0.1,0,0,0,0,0
+Natural Gas Grid,Thermal,50,90,100,0.08,0.06,0,0,0,0,0.2
