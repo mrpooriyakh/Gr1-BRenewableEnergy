@@ -30,7 +30,7 @@ This project develops a comprehensive framework for optimizing energy use in res
 ## Usage
 To run the optimization framework, use the following command:
 ```bash
-python run_optimization.py
+python run_Fina-model(not-created-yet).py
 ```
 Configure simulation parameters in the provided `.config` files before execution.
 
