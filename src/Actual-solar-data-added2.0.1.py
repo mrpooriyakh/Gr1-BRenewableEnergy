@@ -139,15 +139,15 @@ model.no_simultaneous_import_export = Constraint(model.T,
 
 # Renewable Constraints
 # First, remove any existing solar constraints if they exist
-if hasattr(model, 'solar_pv_limit'):
-    model.del_component('solar_pv_limit')
-if hasattr(model, 'solar_offline'):
-    model.del_component('solar_offline')
+#if hasattr(model, 'solar_pv_limit'):
+    #model.del_component('solar_pv_limit')
+#if hasattr(model, 'solar_offline'):
+    #model.del_component('solar_offline')
 
 def solar_pv_limit(model, t):
     return model.solar_pv_output[t] <= solar_potential[t] * model.Z_solar
 
-def solar_offline_hours(model, t):
+#def solar_offline_hours(model, t):
     hour_of_day = t % 24  # Convert timestep to hour of day
     if hour_of_day >= 19 or hour_of_day < 6:  # Between 7 PM and 6 AM
         return model.solar_pv_output[t] == 0

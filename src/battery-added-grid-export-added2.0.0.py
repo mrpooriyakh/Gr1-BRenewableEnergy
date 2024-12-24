@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 file_path = 'time_series_data.csv'
 wind_data_path = 'real-wind-speed.csv'
 
-# Read required data files
+# Read required data filess
 data = pd.read_csv(file_path)
 wind_data = pd.read_csv(wind_data_path)
 
@@ -23,7 +23,8 @@ pv_efficiency = 0.20  # 20% efficient panels (modern panels)
 pv_area = 30  # 30 m² (approximately 5kW system)
 pv_cost_per_kwh = 0.03  # $0.03/kWh operational cost
 pv_capex = 8000  # $8000 for 5kW system
-
+#1)limitation on access to grid
+#2)carbon-
 # Wind Turbine Parameters - small residential turbine
 wind_turbine_rated_power = 3  # 3kW rated power
 wind_cut_in_speed = 3  # 3 m/s cut-in speed
@@ -36,7 +37,7 @@ wind_capex = 12000  # $12000 for 3kW turbine
 grid_max_import = 10  # 10kW maximum import capacity
 grid_max_export = 8  # 8kW maximum export capacity
 grid_import_price = 0.15  # $0.15/kWh import price
-grid_export_price = 0.08  # $0.08/kWh export price
+grid_export_price = 0.08  #0 $0.08/kWh export price
 
 # Battery Parameters - typical residential lithium-ion system
 battery_capacity = 13.5  # Tesla Powerwall-like capacity (kWh)
