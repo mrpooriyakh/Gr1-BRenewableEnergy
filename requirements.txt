@@ -2,3 +2,4 @@ numpy
 scipy.integrate
 scipy.optimize
 matplotlib.pyplot
+json
